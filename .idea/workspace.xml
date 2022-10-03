@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f562561-afdd-4675-adaa-b87a9b72baea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/singleton/TraditionalSingleton.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/factoryMethod/Breakfast.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/factoryMethod/Lunch.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/factoryMethod/Meal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/singleton/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/singleton/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,7 @@
       <list>
         <option value="Kotlin File" />
         <option value="Kotlin Object" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -40,12 +43,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleton.MainKt" />
