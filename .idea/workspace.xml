@@ -4,12 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f562561-afdd-4675-adaa-b87a9b72baea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/factoryMethod/Breakfast.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/factoryMethod/Lunch.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/factoryMethod/Meal.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="9f562561-afdd-4675-adaa-b87a9b72baea" name="Changes" comment="adding static factory example">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/HQ.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/buildings/Barrack.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/buildings/Building.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/buildings/VehicleFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/units/BaseUnit.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/units/infantry/Infantry.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/units/infantry/InfantryUnits.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/units/infantry/Rifleman.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/units/infantry/RocketSoldier.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/units/vehicle/APC.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/units/vehicle/Tank.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/units/vehicle/Vehicle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/units/vehicle/VehicleUnits.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/factoryMethod/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/factoryMethod/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +35,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Object" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin Enum" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -46,10 +58,38 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/judegomolina/Documents/studying/Kotlin/kotlin-design-patterns/src/main/kotlin/factoryMethod/meal/dinner&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/factoryMethod/meal/dinner" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/factoryMethod/meal/lunch" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="abstractFactory.buildings" />
+      <recent name="abstractFactory.units.vehicle" />
+      <recent name="abstractFactory.units.infantry" />
+      <recent name="abstractFactory.units" />
+      <recent name="factoryMethod.meal.dinner" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.MainKt (2)">
+    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="factoryMethod.MainKt" />
+      <module name="kotlin-design-patterns.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="staticFactoryMethod.MainKt" />
+      <module name="kotlin-design-patterns.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleton.MainKt" />
       <module name="kotlin-design-patterns.main" />
@@ -59,6 +99,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt (2)" />
+        <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
@@ -72,6 +114,14 @@
       <option name="presentableId" value="Default" />
       <updated>1664402240753</updated>
     </task>
+    <task id="LOCAL-00001" summary="adding static factory example">
+      <created>1665176077477</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665176077477</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,5 +134,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding static factory example" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding static factory example" />
   </component>
 </project>

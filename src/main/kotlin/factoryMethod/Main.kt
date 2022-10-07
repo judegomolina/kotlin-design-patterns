@@ -3,7 +3,7 @@ package factoryMethod
 import factoryMethod.factories.MealFactory
 
 fun main() {
-    val listOfMeals = listOf<Pair<String, String>>(
+    val listOfMeals = listOf(
         "breakfast" to "vegan",
         "lunch" to "standard",
         "dinner" to "standard",
