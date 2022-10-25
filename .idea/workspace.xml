@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f562561-afdd-4675-adaa-b87a9b72baea" name="Changes" comment="adding static factory example">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/HQ.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/buildings/Barrack.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/buildings/Building.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/buildings/VehicleFactory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/units/BaseUnit.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/units/infantry/Infantry.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/units/infantry/InfantryUnits.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/units/infantry/Rifleman.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/units/infantry/RocketSoldier.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/units/vehicle/APC.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/units/vehicle/Tank.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/units/vehicle/Vehicle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstractFactory/units/vehicle/VehicleUnits.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/factoryMethod/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/factoryMethod/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +60,7 @@
       <recent name="factoryMethod.meal.dinner" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt (2)">
+  <component name="RunManager" selected="Kotlin.MainKt (3)">
     <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="factoryMethod.MainKt" />
       <module name="kotlin-design-patterns.main" />
@@ -90,6 +75,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainKt (3)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstractFactory.MainKt" />
+      <module name="kotlin-design-patterns.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleton.MainKt" />
       <module name="kotlin-design-patterns.main" />
@@ -99,6 +91,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt (3)" />
         <item itemvalue="Kotlin.MainKt (2)" />
         <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt" />
