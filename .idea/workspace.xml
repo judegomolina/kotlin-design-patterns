@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f562561-afdd-4675-adaa-b87a9b72baea" name="Changes" comment="adding static factory example">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/bridge/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/bridge/character/Character.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/bridge/character/Direction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/bridge/character/Warrior.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/bridge/character/Wizard.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/bridge/weapon/Dagger.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/bridge/weapon/Sword.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/bridge/weapon/Weapon.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/composite/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/composite/Team.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/composite/common/CanCalculateItsCost.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/composite/teamMembers/Player.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/composite/teamMembers/TechnicalMember.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,10 +27,10 @@
       <list>
         <option value="Kotlin Object" />
         <option value="package-info" />
-        <option value="Kotlin File" />
-        <option value="Kotlin Interface" />
         <option value="Kotlin Enum" />
+        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
@@ -63,14 +60,14 @@
       <recent name="$PROJECT_DIR$/src/main/kotlin/factoryMethod/meal/lunch" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="structural.composite.common" />
+      <recent name="structural.composite.teamMembers" />
       <recent name="structural.adapter.objectBased.eviloverlord" />
       <recent name="structural.adapter.objectBased.controllaberPerson" />
       <recent name="abstractFactory.buildings" />
-      <recent name="abstractFactory.units.vehicle" />
-      <recent name="abstractFactory.units.infantry" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt (2)">
+  <component name="RunManager" selected="Kotlin.MainKt (3)">
     <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structural.adapter.classBased.MainKt" />
       <module name="kotlin-design-patterns.main" />
@@ -85,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt (4)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="builder.MainKt" />
+    <configuration name="MainKt (3)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.composite.MainKt" />
       <module name="kotlin-design-patterns.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt (3)" />
         <item itemvalue="Kotlin.MainKt (2)" />
         <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.MainKt (5)" />
-        <item itemvalue="Kotlin.MainKt (4)" />
       </list>
     </recent_temporary>
   </component>
