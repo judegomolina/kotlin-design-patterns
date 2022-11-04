@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f562561-afdd-4675-adaa-b87a9b72baea" name="Changes" comment="adding static factory example">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/adapter/objectBased/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/adapter/objectBased/controllaberPerson/ControllableEnglishSpeaker.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/adapter/objectBased/controllaberPerson/ControllablePerson.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/adapter/objectBased/controllaberPerson/ControllableSpanishSpeaker.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/adapter/objectBased/eviloverLord/Controller.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/adapter/objectBased/eviloverLord/EvilOverlord.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/adapter/objectBased/eviloverLord/EvilOverlordSpanishAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/bridge/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/bridge/character/Character.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/bridge/character/Direction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/bridge/character/Warrior.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/bridge/character/Wizard.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/bridge/weapon/Dagger.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/bridge/weapon/Sword.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/bridge/weapon/Weapon.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,11 +29,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Object" />
-        <option value="Kotlin Enum" />
         <option value="package-info" />
-        <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Enum" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -52,11 +53,12 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/judegomolina/Documents/studying/Kotlin/kotlin-design-patterns/src/main/kotlin/factoryMethod/meal/dinner&quot;
+    &quot;last_opened_file_path&quot;: &quot;/Users/judegomolina/Documents/studying/Kotlin/kotlin-design-patterns/src/main/kotlin/structural/adapter/classBased&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/structural/adapter/classBased" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/factoryMethod/meal/dinner" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/factoryMethod/meal/lunch" />
     </key>
@@ -68,16 +70,16 @@
       <recent name="abstractFactory.units.infantry" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
-    <configuration name="MainKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="staticFactoryMethod.MainKt" />
+  <component name="RunManager" selected="Kotlin.MainKt (2)">
+    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.adapter.classBased.MainKt" />
       <module name="kotlin-design-patterns.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt (3)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstractFactory.MainKt" />
+    <configuration name="MainKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.bridge.MainKt" />
       <module name="kotlin-design-patterns.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt (2)" />
+        <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.MainKt (5)" />
         <item itemvalue="Kotlin.MainKt (4)" />
-        <item itemvalue="Kotlin.MainKt (3)" />
-        <item itemvalue="Kotlin.MainKt (2)" />
       </list>
     </recent_temporary>
   </component>
