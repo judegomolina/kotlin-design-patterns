@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f562561-afdd-4675-adaa-b87a9b72baea" name="Changes" comment="adding static factory example" />
+    <list default="true" id="9f562561-afdd-4675-adaa-b87a9b72baea" name="Changes" comment="adding static factory example">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/strategy/kotlinesque/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/strategy/kotlinesque/Weapons.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/strategy/traditional/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/strategy/traditional/Warrior.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/strategy/traditional/weapon/BareHands.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/strategy/traditional/weapon/Gun.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/strategy/traditional/weapon/Sword.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/strategy/traditional/weapon/Weapon.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,11 +31,11 @@
       <list>
         <option value="package-info" />
         <option value="Kotlin Enum" />
+        <option value="Kotlin Data Class" />
+        <option value="Kotlin File" />
         <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
-        <option value="Kotlin Data Class" />
         <option value="Kotlin Object" />
-        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -44,6 +55,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "/Users/judegomolina/Documents/studying/Kotlin/kotlin-design-patterns/src/main/kotlin/structural/proxy",
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
@@ -56,16 +68,16 @@
       <recent name="$PROJECT_DIR$/src/main/kotlin/factoryMethod/meal/lunch" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="behavioral.strategy.traditional" />
       <recent name="structural.composite.common" />
       <recent name="structural.composite.teamMembers" />
       <recent name="structural.adapter.objectBased.eviloverlord" />
       <recent name="structural.adapter.objectBased.controllaberPerson" />
-      <recent name="abstractFactory.buildings" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
-    <configuration name="MainKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.bridge.MainKt" />
+  <component name="RunManager" selected="Kotlin.MainKt (1)">
+    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.strategy.traditional.MainKt" />
       <module name="kotlin-design-patterns.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.MainKt (5)" />
         <item itemvalue="Kotlin.MainKt (4)" />
         <item itemvalue="Kotlin.MainKt (3)" />
-        <item itemvalue="Kotlin.MainKt (2)" />
       </list>
     </recent_temporary>
   </component>
