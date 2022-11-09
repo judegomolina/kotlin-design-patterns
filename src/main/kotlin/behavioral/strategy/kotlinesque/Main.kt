@@ -1,6 +1,5 @@
 package behavioral.strategy.kotlinesque
 
-import behavioral.strategy.kotlinesque.Warrior
 
 
 fun main() {
