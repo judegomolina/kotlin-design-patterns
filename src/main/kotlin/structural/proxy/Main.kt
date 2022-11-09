@@ -5,5 +5,5 @@ fun main() {
     for (i in 0..10) {
         catImage.image
     }
-    println(ImageLoader.getLoads())
+    println(catImage.getLoads())
 }
