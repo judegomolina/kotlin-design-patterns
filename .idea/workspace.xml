@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f562561-afdd-4675-adaa-b87a9b72baea" name="Changes" comment="adding static factory example">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/strategy/kotlinesque/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/strategy/kotlinesque/Weapons.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/strategy/traditional/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/strategy/traditional/Warrior.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/strategy/traditional/weapon/BareHands.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/strategy/traditional/weapon/Gun.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/strategy/traditional/weapon/Sword.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/strategy/traditional/weapon/Weapon.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/iterator/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/iterator/Team.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/iterator/common/TeamMember.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/iterator/teamMembers/Player.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/iterator/teamMembers/TechnicalMember.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,9 +29,9 @@
         <option value="Kotlin Enum" />
         <option value="Kotlin Data Class" />
         <option value="Kotlin File" />
-        <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Object" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
@@ -56,12 +52,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/judegomolina/Documents/studying/Kotlin/kotlin-design-patterns/src/main/kotlin/structural/proxy",
+    "last_opened_file_path": "/Users/judegomolina/Documents/studying/Kotlin/kotlin-design-patterns/src/main/kotlin/behavioral/iterator",
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/behavioral/iterator" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/structural/proxy" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/structural/adapter/classBased" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/factoryMethod/meal/dinner" />
@@ -75,7 +72,7 @@
       <recent name="structural.adapter.objectBased.controllaberPerson" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt (1)">
+  <component name="RunManager" selected="Kotlin.MainKt (2)">
     <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="behavioral.strategy.traditional.MainKt" />
       <module name="kotlin-design-patterns.main" />
@@ -83,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt (3)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.composite.MainKt" />
+    <configuration name="MainKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.strategy.kotlinesque.MainKt" />
       <module name="kotlin-design-patterns.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt (2)" />
         <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.MainKt (5)" />
         <item itemvalue="Kotlin.MainKt (4)" />
-        <item itemvalue="Kotlin.MainKt (3)" />
       </list>
     </recent_temporary>
   </component>
