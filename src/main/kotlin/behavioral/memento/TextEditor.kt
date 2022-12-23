@@ -18,12 +18,12 @@ class TextEditor(
         println(text)
     }
 
-    inner class PreviousState(private var previousText: String = "") {
+    inner class PreviousState(private var previousTexts: ArrayDeque<String> = ArrayDeque(listOf(""))) {
 
         fun captureText(text: String) {
-            previousText = text
+            previousTexts.addLast(text)
         }
 
-        fun getPreviousText() = previousText
+        fun getPreviousText() = previousTexts.removeLast()
     }
 }
