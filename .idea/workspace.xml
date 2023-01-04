@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f562561-afdd-4675-adaa-b87a9b72baea" name="Changes" comment="adding static factory example">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/visitor/LinkCrawler.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/visitor/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/visitor/Page.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/visitor/htmlelements/Container.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/visitor/htmlelements/HtmlElement.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/visitor/htmlelements/Link.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/behavioral/memento/TextEditor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/memento/TextEditor.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +29,10 @@
         <option value="package-info" />
         <option value="Kotlin Enum" />
         <option value="Kotlin Sealed Class" />
-        <option value="Kotlin Interface" />
         <option value="Kotlin Object" />
         <option value="Kotlin Data Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
       </list>
     </option>
