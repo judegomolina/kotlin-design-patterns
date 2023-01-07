@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f562561-afdd-4675-adaa-b87a9b72baea" name="Changes" comment="adding static factory example">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/templateMethod/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/templateMethod/UploadDocumentsFromCloud.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/templateMethod/UploadDocumentsFromLocal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/templateMethod/UploadDocumentsTemplate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/observer/kotlinesque/Cat.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/observer/kotlinesque/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/observer/kotlinesque/singers/Bat.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/observer/kotlinesque/singers/Dog.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioral/observer/kotlinesque/singers/Turkey.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,9 +77,9 @@
       <recent name="behavioral.chainOfResponsibility.traditional.handler" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
-    <configuration name="MainKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioral.interpreter.MainKt" />
+  <component name="RunManager" selected="Kotlin.MainKt (1)">
+    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.observer.kotlinesque.MainKt" />
       <module name="kotlin-design-patterns.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.MainKt (5)" />
         <item itemvalue="Kotlin.MainKt (4)" />
         <item itemvalue="Kotlin.MainKt (3)" />
-        <item itemvalue="Kotlin.MainKt (2)" />
       </list>
     </recent_temporary>
   </component>
